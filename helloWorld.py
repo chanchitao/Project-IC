@@ -1,4 +1,4 @@
-print("Git is awesome!")
+## Start input
 print('Enter your first name:')
 x = input()
 print('Enter your Surname:')
@@ -7,15 +7,14 @@ print('Enter your mobile no.')
 z = input() 
 print('Enter your post code.')
 postcode = input() 
-
-### Input City
-##print('Enter your City.')
-##City = input() 
-### Input Address 
-##print('Enter your Address.')
-##Address = input() 
+##Input City
+print('Enter your City.')
+City = input() 
+##Input Address 
+print('Enter your Address.')
+Address = input() 
 
 print('Hello, ' + x + " "+ y)
 print('Your Mobile No. is ' + z)
 print('Your Post Code is ' + postcode)
-##print('You are living at ' + Address + " "+ City )
+print('You are living at ' + Address + " "+ City )
