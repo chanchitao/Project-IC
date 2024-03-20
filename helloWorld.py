@@ -1,20 +1,28 @@
-## Start input
+## Start of the Program
 print('Enter your first name:')
-x = input()
+## assign input to variable firstname
+firstname = input()
 print('Enter your Surname:')
-y = input()
+## assign input to variable surname
+surname = input()
 print('Enter your mobile no.')
-z = input() 
+## assign input to variable mobileNo
+mobileNo = input() 
 print('Enter your post code.')
+## assign input to variable  postcode
 postcode = input() 
 ##Input City
 print('Enter your City.')
-City = input() 
+## assign input to variable city
+city = input() 
 ##Input Address 
 print('Enter your Address.')
-Address = input() 
+## assign input to variable address
+address = input() 
 
-print('Hello, ' + x + " "+ y)
-print('Your Mobile No. is ' + z)
+## Below is printout of the inputted results
+print('Hello, ' + firstname + " "+ surname)
+print('Your Mobile No. is ' + mobileNo)
 print('Your Post Code is ' + postcode)
-print('You are living at ' + Address + " "+ City )
+print('You are living at ' + address + " "+ city )
+### end of program 
